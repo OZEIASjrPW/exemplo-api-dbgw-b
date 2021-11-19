@@ -1,1 +1,18 @@
-GET https://8080-moccasin-mackerel-2umu65ws.ws-us18.gitpod.io/filmes/3
+GET https://8080-crimson-horse-lw7bu48i.ws-us18.gitpod.io/filmes
+
+###
+
+POST  https://8080-crimson-horse-lw7bu48i.ws-us18.gitpod.io/filmes
+Content-Content-Type: application/json
+
+{
+    "titulo" : "Exemplo"
+}
+
+###
+PUT  https://8080-crimson-horse-lw7bu48i.ws-us18.gitpod.io/filmes/5
+Content-Content-Type: application/json
+
+{
+    "titulo" : "Ghostbusters"
+}
