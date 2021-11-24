@@ -1,8 +1,8 @@
-GET https://8080-crimson-horse-lw7bu48i.ws-us18.gitpod.io/filmes
-
+@url = https://8080-bronze-chickadee-ey5cigpi.ws-us17.gitpod.io/filmes
+GET {{url}}/filmes
 ###
 
-POST  https://8080-crimson-horse-lw7bu48i.ws-us18.gitpod.io/filmes
+POST {{url}}/filmes
 Content-Content-Type: application/json
 
 {
@@ -10,7 +10,7 @@ Content-Content-Type: application/json
 }
 
 ###
-PUT  https://8080-crimson-horse-lw7bu48i.ws-us18.gitpod.io/filmes/5
+PUT {{url}}/filmes
 Content-Content-Type: application/json
 
 {
