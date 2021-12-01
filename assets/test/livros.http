@@ -1,8 +1,10 @@
-@url = https://8080-bronze-chickadee-ey5cigpi.ws-us17.gitpod.io/filmes
+@url = https://8080-amber-constrictor-z86no4yt.ws-us20.gitpod.io
+###
 GET {{url}}/filmes
+
 ###
 
-POST {{url}}/filmes
+POST https://8080-amber-constrictor-z86no4yt.ws-us20.gitpod.io/filmes
 Content-Content-Type: application/json
 
 {
@@ -10,9 +12,17 @@ Content-Content-Type: application/json
 }
 
 ###
-PUT {{url}}/filmes
+PUT https://8080-amber-constrictor-z86no4yt.ws-us20.gitpod.io/filmes/5
 Content-Content-Type: application/json
 
 {
     "titulo" : "Ghostbusters"
+}
+
+###
+DELETE https://8080-amber-constrictor-z86no4yt.ws-us20.gitpod.io/filmes
+Content-Content-Type: application/json
+
+{
+    "id" : 5
 }
